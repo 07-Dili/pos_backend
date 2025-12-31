@@ -41,9 +41,7 @@ public class UserDto {
         if (entity == null) {
             throw new RuntimeException("User not found");
         }
-
         return convertEntityToUserData(entity);
-
     }
 
     public void logout() {

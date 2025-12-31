@@ -10,5 +10,4 @@ public class PosBackendApplication {
         SpringApplication.run(PosBackendApplication.class, args);
         System.out.println("App is running");
     }
-
 }
